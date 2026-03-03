@@ -7,7 +7,7 @@ while attempts < 3:
     name2 = input("enter name: ")
     password2 = input("enter the pass: ")
     if name1 == name2 and password1 == password2:
-     print("welcome bodo")
+     print("welcome " +name1)
      break
     else:
      attempts = attempts + 1
